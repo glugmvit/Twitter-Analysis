@@ -1,17 +1,13 @@
 
-# coding: utf-8
-
-# In[6]:
-
 
 import tweepy
 import csv
 import pandas as pd
 ####input your credentials here
-consumer_key = ''
-consumer_secret = ''
-access_token = ''
-access_token_secret = ''
+consumer_key = 'Z0bEpYrdrA91bIqFhHIUN78Oz'
+consumer_secret = 'g5AudmBzHv1Y9eAjixXtV91TrgtCpX6NExb2QhNTV1fH3QAGcj'
+access_token = '957223669738045440-NI42JKqdmyN7HinPszkBQzev4L1It9n'
+access_token_secret = 'aGoJRuSkDguVnoSQ6SR87eVPcou5BcgR6gLdnwkS547n8'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -49,11 +45,3 @@ top2.plot.pie(y=top2.index,
 plt.axis('equal')
 plt.tight_layout()
 plt.show()
-    
-
-
-# In[7]:
-
-
-csv
-
